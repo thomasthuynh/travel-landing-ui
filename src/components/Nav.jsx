@@ -46,7 +46,7 @@ const Nav = () => {
       </div>
 
       {/* Mobile Dropdown */}
-      <div className={nav ? "absolute w-full left-[0] top-0 bg-gray-100/90 px-4 py-6 flex flex-col" : "absolute left-[-100%]"}>
+      <div className={nav ? "absolute w-full left-[0] top-0 bg-gray-100/90 px-4 py-6 flex flex-col transition-all duration-300": "absolute w-full left-[-100%] top-0 opacity-0 transition-all duration-300"}>
         <ul>
           <h1 className="mb-4">BEACHES.</h1>
           <li className="border-b">Home</li>
