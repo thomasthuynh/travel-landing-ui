@@ -1,3 +1,4 @@
+import Carousel from "./components/Carousel"
 import Destinations from "./components/Destinations"
 import Hero from "./components/Hero"
 import Nav from "./components/Nav"
@@ -13,6 +14,7 @@ function App() {
       <Destinations />
       <Search />
       <Selects />
+      <Carousel />
     </div>
   )
 }
