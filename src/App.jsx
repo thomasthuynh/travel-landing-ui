@@ -1,6 +1,7 @@
 import Destinations from "./components/Destinations"
 import Hero from "./components/Hero"
 import Nav from "./components/Nav"
+import Search from "./components/Search"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <Hero />
       <Destinations />
+      <Search />
     </div>
   )
 }
