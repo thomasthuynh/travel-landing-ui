@@ -22,7 +22,7 @@ const Nav = () => {
   }
 
   return (
-    <div className="flex justify-between items-center h-20 px-4">
+    <div className="flex justify-between items-center h-20 px-4 absolute z-10 w-full text-white">
       <div>
         <h1 className={logo ? "hidden" : "block"}>BEACHES.</h1>
       </div>
@@ -46,7 +46,7 @@ const Nav = () => {
       </div>
 
       {/* Mobile Dropdown */}
-      <div className={nav ? "absolute w-full left-[0] top-0 bg-gray-100/90 px-4 py-6 flex flex-col transition-all duration-300": "absolute w-full left-[-100%] top-0 opacity-0 transition-all duration-300"}>
+      <div className={nav ? "absolute w-full text-black left-[0] top-0 bg-gray-100/90 px-4 py-6 flex flex-col transition-all duration-300": "absolute w-full left-[-100%] top-0 opacity-0 transition-all duration-300"}>
         <ul>
           <h1 className="mb-4">BEACHES.</h1>
           <li className="border-b">Home</li>
