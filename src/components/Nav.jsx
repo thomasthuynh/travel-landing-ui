@@ -42,11 +42,11 @@ const Nav = () => {
 
       {/* Hamburger */}
       <div onClick={handleNav} className="md:hidden z-10">
-        {nav ? <AiOutlineClose size={25}/> : <HiMenu size={25} />}
+        {nav ? <AiOutlineClose className="text-black" size={35}/> : <HiMenu size={35} />}
       </div>
 
       {/* Mobile Dropdown */}
-      <div className={nav ? "absolute w-full text-black left-[0] top-0 bg-gray-100/90 px-4 py-6 flex flex-col transition-all duration-300": "absolute w-full left-[-100%] top-0 opacity-0 transition-all duration-300"}>
+      <div className={nav ? "absolute w-full text-black left-[0] top-0 bg-gray-100/90 px-4 py-6 flex flex-col transition-all duration-300": "absolute w-full top-[-100%] left-0 opacity-0 transition-all duration-300"}>
         <ul>
           <h1 className="mb-4">BEACHES.</h1>
           <li className="border-b">Home</li>

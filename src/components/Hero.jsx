@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute top-0 w-full h-full flex flex-col justify-center items-center text-center text-white">
         <h1>First Class Travel</h1>
         <h2 className="py-4">Top 1% Locations Worldwide</h2>
-        <form className="flex justify-between items-center w-full max-w-[700px] border rounded-md p-1 text-black bg-gray-100/90">
+        <form className="flex justify-between items-center w-[90%] md:w-full max-w-[700px] border rounded-md p-1 text-black bg-gray-100/90">
           <div className="w-[80%] sm:w-[90%]">
             <input className="bg-transparent w-full focus:outline-none" type="text" placeholder="Search Destinations" />
           </div>
