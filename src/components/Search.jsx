@@ -30,8 +30,8 @@ const Search = () => {
             <button>
               <RiCustomerService2Fill size={50}/>
             </button>
-            <div>
-              <h3 className="py-3">Leading Service</h3>
+            <div className="flex flex-col items-center mx-4">
+              <h3 className="py-2">Leading Service</h3>
               <p>All Inclusive Company for 20 Years in a Row</p>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Search = () => {
             <button>
               <FaAddressBook size={50}/>
             </button>
-            <div>
+            <div className="flex flex-col items-center mx-2">
               <h3 className="py-2">Automated Bookings</h3>
               <p>All Inclusive Company for 20 Years in a Row</p>
             </div>
