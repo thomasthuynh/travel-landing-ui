@@ -1,5 +1,6 @@
 import Carousel from "./components/Carousel"
 import Destinations from "./components/Destinations"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Nav from "./components/Nav"
 import Search from "./components/Search"
@@ -15,6 +16,7 @@ function App() {
       <Search />
       <Selects />
       <Carousel />
+      <Footer />
     </div>
   )
 }
