@@ -4,7 +4,7 @@ import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 
 import { FaArrowAltCircleLeft } from "react-icons/fa";
-import { FaArrowCircleRight } from "react-icons/fa";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const sliderData = [
   {
@@ -38,7 +38,7 @@ const Carousel = () => {
         size={25}
         onClick={prevSlide}
       />
-      <FaArrowCircleRight
+      <FaArrowAltCircleRight
         className="icon absolute top-[50%] right-4 cursor-pointer"
         size={25}
         onClick={nextSlide}
